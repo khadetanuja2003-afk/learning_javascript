@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //modify or update and delete
+
+        var a = ["anand", "213", "male", "software"];
+        document.write(a + "<br>");
+
+        //modify/update
+        a[1] = 28;
+        document.write(a + "<br>");
+
+
+        //delete
+        delete a[3];
+        document.write(a + "<br>");
+
+    </script>
+
+    <script>
+
+
+        //sorting and reverse
+
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+        document.write(a + "<br>");
+
+
+        a.sort();
+        document.write(a + "<br>");
+
+
+        a.reverse();
+        document.write(a + "<br>");
+
+
+    </script>
+
+
+    <script>
+
+
+        //pop and push
+
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+        document.write(a + "<br>");
+
+        //ending value delete
+        a.pop();
+        a.pop();
+        document.write(a + "<br>");
+
+
+        //ending value add
+        a.push("Prathamesh");
+        a.push("Ganesh");
+        a.push("Morya");
+        a.push("Vitthal");
+        document.write(a + "<br>");
+
+
+    </script>
+
+
+    <script>
+
+        //shift/unshift
+
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+        document.write(a + "<br>");
+
+        //starting value delete
+        a.shift();
+        a.shift();
+        document.write(a + "<br>");
+
+
+
+        //starting value add
+
+        a.unshift("Ankita");
+        a.unshift("Apurva");
+        document.write(a + "<br>");
+
+
+    </script>
+
+    <script>
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+        var b = ["Vedant", "Sudesh", "Rahul"];
+        var x= ["Raj","Akash"]
+        
+
+        var c = a.concat(b,x);
+       document.write(a + "<br>");
+
+       var d= c.join("/");
+       document.write(d + "<br>");
+
+    </script>
+</body>
+
+</html>
