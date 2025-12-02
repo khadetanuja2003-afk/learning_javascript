@@ -9,7 +9,7 @@
 
 <body>
     <script>
-
+document.write("<h2> update and delete Example</h2>")
         //modify or update and delete
 
         var a = ["anand", "213", "male", "software"];
@@ -28,7 +28,7 @@
 
     <script>
 
-
+document.write("<h2>  sorting and reverse Example</h2>")
         //sorting and reverse
 
         var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
@@ -48,7 +48,7 @@
 
     <script>
 
-
+document.write("<h2>  pop and push Example</h2>")
         //pop and push
 
         var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
@@ -73,6 +73,8 @@
 
     <script>
 
+         document.write("<h2> shift/unshift Example</h2>")
+
         //shift/unshift
 
         var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
@@ -95,17 +97,46 @@
     </script>
 
     <script>
+
+ document.write("<h2>Concat Example</h2>")
+
         var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
         var b = ["Vedant", "Sudesh", "Rahul"];
-        var x= ["Raj","Akash"]
-        
+        var x = ["Raj", "Akash"]
 
-        var c = a.concat(b,x);
-       document.write(a + "<br>");
 
-       var d= c.join("/");
-       document.write(d + "<br>");
+        var c = a.concat(b, x);
+        document.write(a + "<br>");
 
+        var d = c.join("/");
+        document.write(d + "<br>");
+
+    </script>
+
+
+    <script>
+
+        document.write("<h2>Slice Example</h2>")
+        //Slice Example
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+        document.write(a + "<br>");
+
+        //slice(start index,end index)
+        var b = a.slice(1, 5);
+        document.write(b + "<br>");
+
+
+    </script>
+
+    <script>
+
+ document.write("<h2>Splice Example</h2>")
+        //splice
+        var a = ["Tanuja", "Sudesh", "Kanchan", "Neha", "Panu", "Rutu"];
+         document.write(a + "<br>");
+         //splice(index,how many delete,"newvalue")
+         a.splice(2,0,"arbaj","anand");
+          document.write(a + "<br>");
     </script>
 </body>
 
